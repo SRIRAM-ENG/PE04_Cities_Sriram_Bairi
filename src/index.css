@@ -1,0 +1,83 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Change font family */
+}
+
+header {
+  background-color: #af4c54; /* Dark green */
+  color: white;
+  padding: 20px 0; /* Increased padding */
+  text-align: center;
+  font-size: 24px; /* Increased font size */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px; /* Increased margin */
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0; /* Increased margin */
+}
+
+nav a {
+  text-decoration: none;
+  color: #4CAF50; /* Dark green */
+  font-weight: bold;
+  margin: 0 12px; /* Adjusted margin */
+  font-size: 18px; /* Increased font size */
+}
+
+nav a.active {
+  border-bottom: 2px solid #4CAF50; /* Dark green */
+}
+
+.container {
+  max-width: 1200px; /* Increased width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F0F3F6; /* Light gray */
+  border: 1px solid #D1D8E0; /* Light gray */
+}
+
+.left-content {
+  text-align: left;
+}
+
+ul li {
+  margin-bottom: 12px; /* Increased margin */
+  list-style-type: none;
+  font-size: 16px; /* Increased font size */
+}
+
+.city-details {
+  background-color: #F0F3F6; /* Light gray */
+  padding: 16px; /* Increased padding */
+  border: 1px solid #D1D8E0; /* Light gray */
+}
+
+label {
+  display: inline-block;
+  width: 140px; /* Increased width */
+  margin-right: 12px; /* Adjusted margin */
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  margin-bottom: 12px; /* Increased margin */
+  border: 1px solid #B0BEC5; /* Light blue gray */
+  border-radius: 4px; /* Slightly increased border radius */
+  font-size: 16px; /* Increased font size */
+}
